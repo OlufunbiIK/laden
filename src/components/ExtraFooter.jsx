@@ -3,7 +3,11 @@ import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 export default function ExtraFooter() {
 	return (
-		<div className="flex flex-col my-4 lg:flex-row justify-between items-start lg:items-center gap-8 px-4 md:mx-20 lg:p-12">
+		<div
+			data-aos="fade-up"
+			data-aos-duration="1000"
+			className="flex flex-col my-4 lg:flex-row justify-between items-start lg:items-center gap-8 px-4 md:mx-20 lg:p-12"
+		>
 			{/* Address Section */}
 			<div className="flex flex-col items-start">
 				<div className="flex items-center space-x-2">

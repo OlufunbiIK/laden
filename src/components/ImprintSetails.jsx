@@ -2,7 +2,11 @@ import React from "react";
 
 export default function ImprintDetails() {
 	return (
-		<div className="space-y-4 md:mx-20 mx-2">
+		<div
+			data-aos="zoom-out"
+			data-aos-duration="2000"
+			className="space-y-4 md:mx-20 mx-2"
+		>
 			<h1 className="text-[#5E2866]">Imprint</h1>
 			<div>
 				<p>Friedrich Wilhelm Street 3, 47051 Duisburg</p>

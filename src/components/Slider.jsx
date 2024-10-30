@@ -128,12 +128,14 @@ const Slider = () => {
 
 			{/* Arrow buttons */}
 			<button
+				data-aos="fade-right"
 				onClick={prevSlide}
 				className="absolute md:top-1/2 left-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
 			>
 				<FaArrowLeft size={20} className="hidden md:block" />
 			</button>
 			<button
+				data-aos="fade-left"
 				onClick={nextSlide}
 				className="absolute md:top-1/2 right-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
 			>

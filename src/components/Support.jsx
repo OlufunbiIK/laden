@@ -4,7 +4,11 @@ import support from "../../src/assets/images/image.svg";
 export default function Support() {
 	return (
 		<div className="bg-[#FDF4FF] flex flex-col lg:flex-row gap-10 md:gap-0 md:justify-between rounded-br-[75px] items-center md:mx-10 mx-2 my-5 md:py-0">
-			<div className="lg:w-[50%] md:px-5 py-4 px-2">
+			<div
+				data-aos="fade-right"
+				data-aos-duration="1000"
+				className="lg:w-[50%] md:px-5 py-4 px-2"
+			>
 				<h1 className="text-[20px] md:text-[40px]">
 					We support you professionally and with heart
 				</h1>
@@ -22,8 +26,16 @@ export default function Support() {
 					challenges that can arise in care and everyday situations.
 				</p>
 			</div>
-			<div className="hidden md:w-[10%] xl:w-[20%]"></div>
-			<div className="lg:w-[30%]">
+			<div
+				data-aos="fade-right"
+				data-aos-duration="1000"
+				className="hidden md:w-[10%] xl:w-[20%]"
+			></div>
+			<div
+				data-aos="fade-left"
+				data-aos-duration="1000"
+				className="lg:w-[30%]"
+			>
 				<img src={support} alt="" className="w-[505px]" />
 			</div>
 		</div>

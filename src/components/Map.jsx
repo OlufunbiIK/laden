@@ -4,7 +4,11 @@ import "leaflet/dist/leaflet.css";
 
 export default function Map() {
 	return (
-		<div className="w-full h-80">
+		<div
+			data-aos="zoom-in"
+			data-aos-duration="1000"
+			className="w-full h-80"
+		>
 			<MapContainer
 				center={[9.1526, 7.3433]} // Coordinates for Tipper Garage, Dutse, Abuja
 				zoom={13}

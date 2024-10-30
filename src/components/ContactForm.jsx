@@ -2,7 +2,11 @@ import React from "react";
 
 export default function ContactForm() {
 	return (
-		<div className="px-2 md:px-20 py-8">
+		<div
+			data-aos="fade-left"
+			data-aos-duration="2000"
+			className="px-2 md:px-20 py-8"
+		>
 			<div className="md:w-[50%]">
 				<h1 className="text-[#5E2866]">Contact</h1>
 				<div className="space-y-8">

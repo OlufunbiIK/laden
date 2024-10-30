@@ -11,7 +11,11 @@ export default function AboutUs() {
 		<div className="">
 			<AboveNavbar />
 			<ContactNavbar />
-			<div className="w-full relative">
+			<div
+				data-aos="zoom-in"
+				data-aos-duration="1000"
+				className="w-full relative"
+			>
 				<img
 					src={optician}
 					alt="Optician"
@@ -25,7 +29,11 @@ export default function AboutUs() {
 					</h1>
 				</div>
 			</div>
-			<div className="space-y-8 px-2 md:px-20 py-8">
+			<div
+				data-aos="zoom-out"
+				data-aos-duration="1000"
+				className="space-y-8 px-2 md:px-20 py-8"
+			>
 				<div className="space-y-4">
 					<h1 className="text-[#5E2866] text-[24px]">
 						About Intensivpflegedienst Lebenskraft

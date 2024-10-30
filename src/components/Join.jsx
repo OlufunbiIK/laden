@@ -129,7 +129,11 @@ export default function Join() {
 	return (
 		<div className="flex justify-center w-full">
 			<div className="bg-white p-6 md:p-12 flex flex-col md:flex-row md:w-[80%] justify-center gap-5">
-				<div className="text-left mb-10 md:w-[50%]">
+				<div
+					data-aos="fade-right"
+					data-aos-duration="1000"
+					className="text-left mb-10 md:w-[50%]"
+				>
 					<h2 className="text-[18px] font-bold text-[#001833]">
 						BENEFITS
 					</h2>
@@ -163,7 +167,11 @@ export default function Join() {
 
 function BenefitCard({ icon, title, description, bgColor }) {
 	return (
-		<div className="flex flex-col items-center text-center">
+		<div
+			data-aos="flip-left"
+			data-aos-duration="2000"
+			className="flex flex-col items-center text-center"
+		>
 			{/* Icon Section */}
 			<div className={`p-3 rounded-full ${bgColor} mb-4`}>{icon}</div>
 

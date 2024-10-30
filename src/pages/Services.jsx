@@ -14,7 +14,11 @@ export default function Services() {
 			<AboveNavbar />
 			<ContactNavbar />
 			<div className="">
-				<div className="w-full relative">
+				<div
+					data-aos="zoom-in"
+					data-aos-duration="1000"
+					className="w-full relative"
+				>
 					<img
 						src={optician}
 						alt="Optician"

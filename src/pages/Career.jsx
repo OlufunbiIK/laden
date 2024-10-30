@@ -14,7 +14,11 @@ export default function Career() {
 			<AboveNavbar />
 			<ContactNavbar />
 			<div className="">
-				<div className="w-full relative">
+				<div
+					data-aos="zoom-out"
+					data-aos-duration="1400"
+					className="w-full relative"
+				>
 					<img
 						src={optician}
 						alt="Optician"

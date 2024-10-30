@@ -12,7 +12,11 @@ export default function Imprint() {
 			<AboveNavbar />
 			<ContactNavbar />
 			<div className="">
-				<div className="w-full relative">
+				<div
+					data-aos="zoom-in"
+					data-aos-duration="2000"
+					className="w-full relative"
+				>
 					<img
 						src={optician}
 						alt="Optician"
@@ -28,7 +32,11 @@ export default function Imprint() {
 				</div>
 			</div>
 
-			<div className="px-4 py-4 md:w-[80%]">
+			<div
+				data-aos="fade-right"
+				data-aos-duration="2000"
+				className="px-4 py-4 md:w-[80%]"
+			>
 				<h1>Privacy Policy </h1>
 				<p>
 					1. Data protection at a glance General information The

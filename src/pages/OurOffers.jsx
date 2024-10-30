@@ -2,7 +2,11 @@ import React from "react";
 
 export default function OurOffers() {
 	return (
-		<div className="w-full my-10 max-w-4xl mx-auto p-6 bg-white rounded-md overflow-auto">
+		<div
+			data-aos="fade-up"
+			data-aos-duration="2000"
+			className="w-full my-10 max-w-4xl mx-auto p-6 bg-white rounded-md overflow-auto"
+		>
 			<h1 className="text-2xl font-semibold mb-4 text-center text-[48px]">
 				Our Offers
 			</h1>

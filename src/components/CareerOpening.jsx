@@ -225,13 +225,25 @@ const CareerOpenings = () => {
 	return (
 		<div className="my-10">
 			<header className="mb-8 text-center">
-				<h3 className="text-lg font-semibold text-[#001833] text-[18px] uppercase">
+				<h3
+					data-aos="fade-right"
+					data-aos-duration="1000"
+					className="text-lg font-semibold text-[#001833] text-[18px] uppercase"
+				>
 					Come Join Us
 				</h3>
-				<h1 className="text-3xl font-bold text-[#001833] text-[43px]">
+				<h1
+					data-aos="fade-left"
+					data-aos-duration="1000"
+					className="text-3xl font-bold text-[#001833] text-[43px]"
+				>
 					Career Openings
 				</h1>
-				<p className="text-black text-[14px] mt-2">
+				<p
+					data-aos="fade-right"
+					data-aos-duration="1000"
+					className="text-black text-[14px] mt-2"
+				>
 					We're always looking for creative, talented self-starters to
 					join us. Check out our open roles below and fill out an
 					application.
@@ -241,7 +253,11 @@ const CareerOpenings = () => {
 			<div className="flex justify-center items-start p-8 min-h-screen">
 				<div className="w-full max-w-5xl flex">
 					{/* Sidebar */}
-					<div className="w-1/4 pr-8">
+					<div
+						data-aos="fade-left"
+						data-aos-duration="1000"
+						className="w-1/4 pr-8"
+					>
 						<h2 className="font-semibold text-gray-600 mb-4 uppercase">
 							Career Categories
 						</h2>
@@ -265,7 +281,11 @@ const CareerOpenings = () => {
 					</div>
 
 					{/* Job Listings */}
-					<div className="w-3/4">
+					<div
+						data-aos="fade-right"
+						data-aos-duration="1000"
+						className="w-3/4"
+					>
 						{/* Job Cards */}
 						<div className="space-y-4">
 							{jobs.map((job, index) => (

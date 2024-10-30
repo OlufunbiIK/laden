@@ -3,7 +3,11 @@ import optician from "../../src/assets/images/Screenshot 2024-10-29 at 09.03.29.
 
 export default function Optician() {
 	return (
-		<div className="w-full relative">
+		<div
+			data-aos="zoom-in"
+			data-aos-duration="700"
+			className="w-full relative"
+		>
 			<img
 				src={optician}
 				alt="Optician"

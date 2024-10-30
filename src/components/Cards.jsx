@@ -33,9 +33,14 @@ export default function Cards() {
 		},
 	];
 	return (
-		<div className="flex flex-col lg:flex-row gap-1 items-center w-full justify-center my-10">
+		<div
+			data-aos="flip-left"
+			className="flex flex-col lg:flex-row gap-1 items-center w-full justify-center my-10"
+		>
 			{FourCards.map((item, index) => (
 				<div
+					data-aos="flip-left"
+					data-aos-duration="1400"
 					key={index}
 					className="flex flex-col items-center space-y-5 w-[306px] h-[351px] lg:w-[250px] xl:w-[306px] xl:h-[400px] border-dashed border-[2px] border-[#5E2866] px-2"
 				>

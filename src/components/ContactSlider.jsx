@@ -4,7 +4,11 @@ import optician from "../../src/assets/images/Container.svg";
 export default function ContactSlider() {
 	return (
 		<div>
-			<div className="w-full relative">
+			<div
+				data-aos="zoom-in"
+				data-aos-duration="1400"
+				className="w-full relative"
+			>
 				<img
 					src={optician}
 					alt="Optician"

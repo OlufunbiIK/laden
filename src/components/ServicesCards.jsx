@@ -147,6 +147,8 @@ export default function ServiceCards() {
 		<div className="flex flex-col lg:flex-row gap-4 lg:gap-1 xl:gap-4 items-center w-full justify-center my-10">
 			{FourCards.map((item, index) => (
 				<div
+					data-aos="flip-left"
+					data-aos-duration="1400"
 					key={index}
 					className="flex flex-col items-start space-y-3 w-[306px] h-[351px] lg:w-[250px] xl:w-[306px] xl:h-[400px] bg-[#BB2E94] border-[2px] border-[#BB2E94] px-2 my-2 md:my-8 md:w-[400px] md:h-[300px] lg:h-[351px] rounded-br-[20px]"
 				>
