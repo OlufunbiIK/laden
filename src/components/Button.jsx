@@ -1,14 +1,12 @@
 import React from "react";
 
-export default function Button() {
+export default function Button({ onClick }) {
 	return (
-		<div className="">
-			<button
-				type="submit"
-				className="bg-[#5E2866] whitespace-nowrap my-5 px-4 py-2 text-white text-[14px]"
-			>
-				READ MORE
-			</button>
-		</div>
+		<button
+			onClick={onClick}
+			className="px-4 py-2 bg-[#5E2866] text-white uppercase"
+		>
+			Read More
+		</button>
 	);
 }
